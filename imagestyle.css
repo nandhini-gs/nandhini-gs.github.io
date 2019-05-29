@@ -1,0 +1,28 @@
+.imggrid
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1
+{
+	font-family: fantasy;
+	color: pink;
+	font-size: 2em;
+	width: 250px;
+	text-align: center;
+	box-shadow: 4px 4px 4px #888888;
+}
+.image
+{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+    transition: all 1s;
+}
+
+.image:hover
+{
+	transform: scale(1.1);
+}
